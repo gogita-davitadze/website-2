@@ -1,0 +1,579 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  margin-left: 105px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body header {
+  display: flex;
+  max-width: 1517px;
+  max-height: 60px;
+  margin-bottom: 130px;
+}
+body header nav {
+  display: flex;
+}
+body header nav img {
+  width: 177px;
+  height: 48px;
+  margin: 51px 331px 0 0;
+}
+body header nav ul {
+  display: flex;
+  margin-top: 61px;
+}
+body header nav ul :nth-child(1) {
+  color: #1f1f1f;
+}
+body header nav ul li {
+  font-size: 22px;
+  color: #545454;
+  margin-right: 60px;
+}
+body header nav form button {
+  margin-top: 45px;
+  margin-left: 264px;
+  width: 176px;
+  height: 60px;
+  padding: 0.8em 1.8em;
+  border: 2px solid #1f1f1f;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: 0.3s;
+  z-index: 1;
+  font-family: inherit;
+  color: #1f1f1f;
+}
+body header nav form button::before {
+  content: "";
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #1f1f1f;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+body header nav form button:hover::before {
+  width: 105%;
+}
+body header nav form button:hover {
+  color: #fff;
+}
+body > section {
+  display: flex;
+}
+body > section .conteiner {
+  display: inline-block;
+}
+body > section .conteiner > h1 {
+  color: #1f1f1f;
+  font-size: 133px;
+  margin: 0 78px 42px 0;
+  width: 900px;
+}
+body > section .conteiner > P {
+  color: #545454;
+  font-size: 24px;
+  width: 760px;
+  margin-bottom: 102px;
+}
+body > section .conteiner button {
+  margin-bottom: 129px;
+  width: 176px;
+  height: 60px;
+  padding: 0.8em 1.8em;
+  border: 2px solid #1f1f1f;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: 0.3s;
+  z-index: 1;
+  font-family: inherit;
+  color: #1f1f1f;
+}
+body > section .conteiner button::before {
+  content: "";
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #1f1f1f;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+body > section .conteiner button:hover::before {
+  width: 105%;
+}
+body > section .conteiner button:hover {
+  color: #fff;
+}
+body > section .conteiner .number {
+  display: flex;
+}
+body > section .conteiner .number > div {
+  margin-left: 50px;
+}
+body > section .conteiner .number > div > h1 {
+  color: #545454;
+  font-size: 70px;
+}
+body > section .conteiner .number > div > P {
+  color: #545454;
+  font-size: 20px;
+}
+body > section .img .image2 {
+  width: 507px;
+  height: 428px;
+  display: inline-block;
+}
+body > section .img .image3 {
+  width: 638px;
+  height: 406px;
+  margin-left: -200px;
+  margin-top: 32px;
+}
+body main > p {
+  font-size: 58px;
+  color: #1f1f1f;
+}
+body main > p > span {
+  width: 100px;
+}
+body main > article {
+  display: flex;
+}
+body main > article > div {
+  margin-top: 103px;
+  width: 466px;
+  height: 194px;
+  margin-left: 50px;
+}
+body main > article > div > img {
+  width: 72px;
+  height: 70px;
+  margin-right: 35px;
+  margin-bottom: 70px;
+}
+body main > article > div .conteiner2 {
+  display: inline-block;
+}
+body main > article > div .conteiner2 > h1 {
+  color: #1f1f1f;
+  font-size: 30px;
+}
+body main > article > div .conteiner2 > p {
+  margin-top: 45px;
+  width: 350px;
+  color: #545454;
+  font-size: 22px;
+}
+body main > section {
+  display: flex;
+  margin-top: 240px;
+}
+body main > section > img {
+  width: 711px;
+  height: 711px;
+}
+body main > section > article {
+  margin-left: 102px;
+}
+body main > section > article > h1 {
+  color: #1f1f1f;
+  width: 704px;
+  font-size: 58px;
+  margin-bottom: 68px;
+}
+body main > section > article > p {
+  color: #545454;
+  font-size: 24px;
+  width: 722px;
+  margin-bottom: 68px;
+}
+body main > section > article .conteiner3 {
+  display: flex;
+  justify-content: space-between;
+  width: 704px;
+  height: 63px;
+}
+body main > section > article .conteiner3 > h1 {
+  color: #1f1f1f;
+  font-size: 24px;
+}
+body main > section > article .conteiner3 > span {
+  color: #1f1f1f;
+  font-size: 50px;
+  margin-bottom: 53px;
+  margin-top: -15px;
+}
+body main > section > article button {
+  margin-top: 50px;
+  width: 176px;
+  height: 60px;
+  padding: 0.8em 1.8em;
+  border: 2px solid #1f1f1f;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: 0.3s;
+  z-index: 1;
+  font-family: inherit;
+  color: #1f1f1f;
+}
+body main > section > article button::before {
+  content: "";
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #1f1f1f;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+body main > section > article button:hover::before {
+  width: 105%;
+}
+body main > section > article button:hover {
+  color: #fff;
+}
+body main .conteiner4 {
+  margin-top: 239px;
+  display: flex;
+}
+body main .conteiner4 > section {
+  display: inline-block;
+}
+body main .conteiner4 > section > h1 {
+  width: 704px;
+  color: #1f1f1f;
+  font-size: 58px;
+  margin-bottom: 61px;
+}
+body main .conteiner4 > section article {
+  display: flex;
+}
+body main .conteiner4 > section article > img {
+  width: 72px;
+  height: 72px;
+  margin-right: 63px;
+}
+body main .conteiner4 > section article > div {
+  width: 704px;
+  height: 183px;
+  display: inline-block;
+}
+body main .conteiner4 > section article > div > h1 {
+  color: #1f1f1f;
+  font-size: 30px;
+  margin-bottom: 21px;
+}
+body main .conteiner4 > section article > div > p {
+  color: #545454;
+  width: 569px;
+  font-size: 24px;
+}
+body main .conteiner4 > img {
+  width: 697px;
+  height: 851px;
+  margin-left: 120px;
+}
+body main .conteiner5 {
+  margin-top: 150px;
+  width: 979px;
+  height: 490px;
+  margin-left: 27vw;
+}
+body main .conteiner5 > h1 {
+  color: #1f1f1f;
+  font-size: 58px;
+  width: 849px;
+  text-align: center;
+}
+body main .conteiner5 > p {
+  margin-top: 51px;
+  color: #545454;
+  font-size: 24px;
+  width: 770px;
+  text-align: center;
+}
+body main .conteiner5 > div {
+  margin-top: 115px;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+body main .conteiner5 > div > input {
+  width: 350px;
+  font-size: 24px;
+  color: #545454;
+  border: none;
+}
+body main .conteiner5 > div > button {
+  width: 176px;
+  height: 60px;
+  padding: 0.8em 1.8em;
+  border: 2px solid #1f1f1f;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: 0.3s;
+  z-index: 1;
+  font-family: inherit;
+  color: #1f1f1f;
+}
+body main .conteiner5 > div button::before {
+  content: "";
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #1f1f1f;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+body main .conteiner5 > div button:hover::before {
+  width: 105%;
+}
+body main .conteiner5 > div button:hover {
+  color: #fff;
+}
+body footer {
+  width: 1800px;
+  height: 642px;
+  background-color: #1f1f1f;
+  margin-left: -105px;
+}
+body footer > div {
+  display: inline-block;
+  margin: 183px 240px 155px 105px;
+}
+body footer > div > img {
+  width: 177px;
+  height: 48px;
+  margin-bottom: 51px;
+  background-color: #545454;
+}
+body footer > div > p {
+  color: #545454;
+  font-size: 22px;
+  width: 322px;
+  margin-bottom: 70px;
+}
+body footer > div > ul {
+  display: flex;
+}
+body footer > div > ul > li > img {
+  width: 36px;
+  height: 36px;
+  margin-right: 25px;
+}
+body footer > ul {
+  display: inline-block;
+  width: 246px;
+  height: 284px;
+}
+body footer > ul > li {
+  margin-top: 34px;
+  color: #545454;
+  font-size: 22px;
+}
+body footer > ul > li > p {
+  color: #fff;
+  font-size: 24px;
+}
+body footer > section {
+  margin-right: 150px;
+  width: 245px;
+  height: 284px;
+  display: inline-block;
+}
+body footer > section > ul > li {
+  margin-top: 34px;
+  color: #545454;
+  font-size: 22px;
+}
+body footer > section > ul > li > p {
+  color: #fff;
+  font-size: 24px;
+}
+body footer > article {
+  width: 257px;
+  height: 284px;
+  display: inline-block;
+}
+body footer > article > h1 {
+  color: #fff;
+  font-size: 24px;
+}
+body footer > article > h2 {
+  margin-top: 45px;
+  color: #545454;
+  font-size: 22px;
+}
+body footer > article > p {
+  color: #545454;
+  width: 246px;
+  margin-top: 45px;
+}
+
+/*# sourceMappingURL=styles.css.map */
